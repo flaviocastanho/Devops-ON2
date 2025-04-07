@@ -1,0 +1,7 @@
+-------------------------------------------------------------------------------
+Test set: com.example.demo.MessageTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.01 s <<< FAILURE! - in com.example.demo.MessageTest
+com.example.demo.MessageTest  Time elapsed: 0.01 s  <<< ERROR!
+java.lang.IllegalStateException: Found multiple @SpringBootConfiguration annotated classes [Generic bean: class [com.example.demo.BrokenAccessControlExample]; scope=; abstract=false; lazyInit=null; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [C:\Flavio\Impacta\DevSecOps\Devops-ON\target\classes\com\example\demo\BrokenAccessControlExample.class], Generic bean: class [com.example.demo.DemoApplication]; scope=; abstract=false; lazyInit=null; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [C:\Flavio\Impacta\DevSecOps\Devops-ON\target\classes\com\example\demo\DemoApplication.class]]
+
